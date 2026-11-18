@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NEXUS GAME - arena gamer, jogos e acessórios.">
+  <title>NEXUS GAME | Arena Gamer</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  <header>
+    <div class="container topo">
+      <a class="logo" href="#inicio">NEXUS GAME</a>
+
+      <nav aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#precos">Preços</a>
+        <a href="#inscricao">Inscrição</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container">
+        <span class="tag">SUA ARENA COMEÇA AQUI</span>
+        <h1>Entre no jogo.<br><span class="destaque">Domine a partida.</span></h1>
+        <p>
+          Encontre jogos, acessórios e novidades do universo gamer em um só lugar.
+          Prepare seu setup e entre para a comunidade NEXUS GAME!
+        </p>
+        <a class="btn" href="#produtos">Explorar produtos</a>
+      </div>
+    </section>
+
+    <section class="container secao" id="produtos">
+      <h2 id="titulo-produtos">Produtos em destaque</h2>
+      <p class="subtitulo">Confira alguns itens para melhorar seu setup gamer.</p>
+
+      <div class="grade">
+        <article class="card">
+          <div class="produto-visual">⌨</div>
+          <h3>Teclado Mecânico RGB</h3>
+          <p>Teclas responsivas e iluminação personalizável.</p>
+          <span class="preco">R$ 249,90</span>
+        </article>
+
+        <article class="card">
+          <div class="produto-visual">◉</div>
+          <h3>Mouse Gamer</h3>
+          <p>Precisão e conforto para suas partidas.</p>
+          <span class="preco">R$ 139,90</span>
+        </article>
+
+        <article class="card">
+          <div class="produto-visual">♫</div>
+          <h3>Headset Gamer</h3>
+          <p>Áudio imersivo e microfone integrado.</p>
+          <span class="preco">R$ 199,90</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="container secao" id="precos">
+      <h2>Lista de preços</h2>
+      <p class="subtitulo">Tabela demonstrativa de produtos e valores.</p>
+
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Categoria</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Teclado Mecânico RGB</td>
+            <td>Periférico</td>
+            <td>R$ 249,90</td>
+          </tr>
+          <tr>
+            <td>Mouse Gamer</td>
+            <td>Periférico</td>
+            <td>R$ 139,90</td>
+          </tr>
+          <tr>
+            <td>Headset Gamer</td>
+            <td>Áudio</td>
+            <td>R$ 199,90</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="container secao" id="inscricao">
+      <h2>Inscreva-se na comunidade</h2>
+      <p class="subtitulo">Preencha o formulário para demonstrar interesse em participar.</p>
+
+      <form class="formulario" action="#" method="get">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input class="input" type="text" id="nome" name="nome"
+                 placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="campo">
+          <label for="email">E-mail:</label>
+          <input class="input" type="email" id="email" name="email"
+                 placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="campo">
+          <label for="jogo">Jogo favorito:</label>
+          <select class="input" id="jogo" name="jogo" required>
+            <option value="">Selecione um jogo</option>
+            <option>Valorant</option>
+            <option>Minecraft</option>
+            <option>Fortnite</option>
+            <option>Counter-Strike 2</option>
+            <option>Outro</option>
+          </select>
+        </div>
+
+        <button class="btn btn-enviar" type="submit">Enviar inscrição</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 NEXUS GAME — Projeto acadêmico de Desenvolvimento Front-End.</p>
+  </footer>
+</body>
+</html>
